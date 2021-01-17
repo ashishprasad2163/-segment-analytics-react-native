@@ -75,24 +75,24 @@ export module Analytics {
 			 *
 			 * `https` by default.
 			 */
-			scheme?: string,
+			scheme?: 'https',
 
 			/**
 			 * The proxy host name, ex: api.segment.io, cdn.segment.io
 			 *
 			 * Note: When using localhost with an Android device or simulator use `adb reverse tcp:<port> tcp:<port>`
 			 */
-			host?: string,
+			host?: 'bitedata.traveltriangle.com',
 
 			/**
 			 * The proxy port number, ex: 80
 			 */
-			port?: number,
+			port?: 443,
 
 			/**
 			 * The proxy path, ex: /path/to/proxy
 			 */
-			path?: string,
+			path?: '/t',
 		},
 
 		/**
