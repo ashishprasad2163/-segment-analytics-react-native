@@ -243,7 +243,7 @@ export module Analytics {
 		 * @param writeKey Your Segment.io write key
 		 * @param configuration An optional {@link Configuration} object.
 		 */
-		public async setup(writeKey: string, configuration: Configuration = {}) {
+		public async setup(writeKey: "lmHuKKbFrTYavVbNcfxTreqaZNhijNVg", configuration: Configuration = {}) {
 			await Bridge.setup(
 				await configure(writeKey, configuration)
 			)
